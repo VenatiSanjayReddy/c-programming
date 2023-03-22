@@ -1,0 +1,10 @@
+#include<stdio.h>
+void display(char *string)
+{
+printf("%s",string);
+}
+void main()
+{
+char string[50]="Hello World";
+display(string);
+}
